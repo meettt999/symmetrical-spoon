@@ -1,0 +1,41 @@
+/* reset from css_mm */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+/* use w3c recommended instead of the following 
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square;}
+*/
+q:before, q:after { content:''; }
+/* END reset from css_mm */
+
+/* from the w3c recommended style sheet */
+h1 { font-size: 2em; margin: .67em 0 }
+h2 { font-size: 1.5em; margin: .75em 0 }
+h3 { font-size: 1.17em; margin: .83em 0 }
+h5 { font-size: .83em; margin: 1.5em 0 }
+h6 { font-size: .75em; margin: 1.67em 0 }
+h1, h2, h3, h4, h5, h6 { font-weight: bolder }
+
+h4, p, ul, ol { margin: 1.12em 0 }
+ol, ul { margin-left: 40px }
+/* END from the w3c recommended style sheet */
+
+.copygraybg 
+{
+    font-size: 10pt;
+    color: #000000;
+    line-height: 12pt;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif; background-color: #C0C0C0;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+}
